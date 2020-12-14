@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+
+}
+.nav-list{
+width: 70%;
+
+display: flex;
+align-items: center;
+}
+
+.nav-list li{
+   list-style: none;
+   padding: 26px 30px;
+}
+
+.nav-list li a{
+text-decoration: none;
+color: seashell;
+font-size: 20px;
+font-family: sans-serif;
+}
+.nav-list li a:hover{
+    color: blue;
+  
+}
+.rightNav{
+   
+    width: 30%;
+    text-align: right;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 43%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    box-shadow: none;
+    overflow: hidden;
+    
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf{
+   
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+width: 30%;
+
+}
+
+.secondHalf img{
+    width: 110%;
+    border: 2px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    opacity: 0.7;
+
+}
+
+.text-big{
+  font-size: 25px;
+}
+
+.text-small{
+   font-size: 12px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    box-shadow: none;
+    overflow: hidden;
+}
+
+.btn-dark{
+    color: black;
+    display: flex;
+    border: 2px solid grey;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    overflow: hidden;
+
+   
+}
+
+.btn-dark:hover{
+    background: linear-gradient(57deg , blue , orange);
+}
+
+.section{
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'PT Serif', serif;
+    padding: 10px;
+}
+
+
+.paras{
+
+    padding: 0px 65px;
+}
+
+.section-left{
+  flex-direction: row-reverse;
+}
+
+
+.sectionSubTag{
+    font-family:'PT Serif', serif;
+}
+
+.thumnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.contact{
+    background: linear-gradient(57deg  , orange , blue);
+    height: 750px;
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-family:'PT Serif', serif;
+    font-size: 35px;
+}
+
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 20px 0;
+    width: 100%;
+    padding: 5px 11px;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.burger{
+    display: none;
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+
+.sponser{
+    height: 255px;
+
+padding: 22px;
+background: linear-gradient(57deg , blue , orange);
+}
+
+#sponsers-1{
+    display: inline-block;
+    background-color: lightgrey;
+    padding: 79px;
+    border: 2px solid black;
+    width: 210px;
+    margin: 23px 28px;
+}
+
+
+.company{
+    text-align: center;
+    padding-top: 20px;
+    font-family:'PT Serif', serif;
+    font-size: 35px;
+}
+
+.sponser img{
+    display: unset;
+    width: 284px;
+    padding: 16px 73px;
+}
